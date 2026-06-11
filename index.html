@@ -3,64 +3,83 @@
      <head>
            <title>Thiết kế Web</title>
            <meta charset= "UTF-8" />
-           <link rel="stylesheet" href="css/style.css">
+           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
      </head>
      <body>
-       <h1 id="hoten">Dương Gia Đạt</h1>
-       <h3 id="tieude">Trang thông tin cá nhân</h3>
-       <div class="container">
-	   <table border="2">
-	         <tr >
-			      <td class="kc">
-				   <img src="accets/images/avatar.img">
-				  </td>
-				  <td class="ck">
-				      <p><b>Giới thiệu bản thân</b></p>
-                   <p>Xin chào! Tôi là <b>Dương Gia Đạt</b>, sinh viên nghành<b> Công nghệ thông tin</b>. Tôi yêu thích lập trình và thiết kế web.
-                      Mục tiêu của tôi là trở thành một <u>lập trình viên chuyên nghiệp.</u></p>
-                   <p>Tôi đang học tại <b>Đại học Trà Vinh</b>. Tôi luôn học tập và phát triển kỹ năng mỗi ngày.   
-				  </td>
-               </tr>  
-	   </table>
-       </div>       
-       <p><b>Thông tin chi tiết</b></p>
-       <table border="2">
-           <tr>
-             <th><b>Thông tin</b></th>
-             <th style="text-align":center><b>Nội dung</b></th>
-           </tr>
-           <tr>
-               <td>Họ và tên</td>
-               <td>Dương Gia Đạt</td>
-           </tr>
-           <tr>
-               <td>Tuổi</td>
-               <td>18</td>
-           </tr>
-           <tr>
-               <td>Lớp</td>
-               <td>DA25TTB</td>
-           </tr>
-           <tr>
-               <td>Trường</td>
-               <td>Đại học Trà Vinh</td>
-           </tr>
+        <div class="container">
+            <h2>Minh họa BS Grid</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col text-center">
+                <div class="card product-item h-100 d-flex flex-column">
+                    <div class="ratio ratio-1x1 product-image">
+                       <img src="../accets/images/cucindo.img" alt="Hoa cúc indo" class="card-img-top">
+                    </div>  
+                    <div class="card-body product-info">
+                        <h4 class="card-title text-danger">Hoa cúc Indo</h4>
+                        <h5 class="text-danger">Giá khởi điểm: 2500000</h5>
+                        <p style ="text-align: justify;">
+                            Cúc Indo (còn gọi là Cúc Nữ Hoàng, tên khoa học: Verbena tenera) là loài cây thân thảo dạng bụi nhỏ. 
+                            Cây có thân mảnh, cành thường bò ngang, phân nhiều nhánh và rủ xuống rất thích hợp trồng chậu treo.
+                        </p>
+                        <a href="#" class="btn btn-info mt-auto btn-custom-equal">Xem chi tiết</a>
+                    </div>
+                </div>   
+            </div>
+            <div class="col text-center">
+                <div class="card product-item h-100 d-flex flex-column">
+                    <div class="ratio ratio-1x1 product-image">
+                       <img src="../accets/images/hoahong.image" alt="Hoa hồng" class="card-img-top">
+                    </div>  
+                    <div class="card-body product-info">
+                        <h4 class="card-title text-danger">Hoa hồng</h4>
+                        <h5 class="text-danger">Giá khởi điểm: 3500000</h5>
+                        <p style ="text-align: justify;">
+                            Hoa hồng được mệnh danh là "nữ hoàng của các loài hoa", nổi bật với vẻ đẹp kiêu sa và hương thơm ngọt ngào. 
+                            Loài hoa này có thân cành mảnh mai nhưng cứng cáp, điểm xuyết những chiếc gai nhọn.
+                        </p>
+                        <a href="#" class="btn btn-info mt-auto btn-custom-equal">Xem chi tiết</a>
+                    </div>
+                </div>   
+            </div>
+            <div class="col text-center">
+                <div class="card product-item h-100 d-flex flex-column">
+                    <div class="ratio ratio-1x1 product-image">
+                       <img src="../accets/images/hoahuongduong" alt="Hoa hướng dương" class="card-img-top">
+                    </div>  
+                    <div class="card-body product-info">
+                        <h4 class="card-title text-danger">Hoa Hướng dương</h4>
+                        <h5 class="text-danger">Giá khởi điểm: 1500000</h5>
+                        <p style ="text-align: justify;">
+                           Hoa hướng dương (tên khoa học: Helianthus annuus) là loài cây thân thảo thuộc họ Cúc. 
+                           Nổi bật với sắc vàng rực rỡ và đặc tính luôn hướng về phía mặt trời, loài hoa này tượng trưng cho sự sống mãnh liệt, niềm tin và sự hy vọng
+                        </p>
+                        <a href="#" class="btn btn-info mt-auto btn-custom-equal">Xem chi tiết</a>
+                    </div>
+                </div>   
+            </div>
+            <div class="col text-center">
+                <div class="card product-item h-100 d-flex flex-column">
+                    <div class="ratio ratio-1x1 product-image">
+                       <img src="../accets/images/hoaly.image" alt="Hoa ly" class="card-img-top">
+                    </div>  
+                    <div class="card-body product-info">
+                        <h4 class="card-title text-danger">Hoa ly</h4>
+                        <h5 class="text-danger">Giá khởi điểm: 3600000</h5>
+                        <p style ="text-align: justify;">
+                           Hoa ly (hay còn gọi là hoa bách hợp, huệ tây, tên tiếng Anh là Lily) là loài hoa ôn đới mang vẻ đẹp sang trọng, thanh cao và hương thơm nồng nàn.
+                        </p>
+                        <a href="#" class="btn btn-info mt-auto btn-custom-equal">Xem chi tiết</a>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        </div> 
 
-       </table>
-       
-       <p><b>Sở thích</b></p>
-       <ul>
-           <li>Nghe nhạc</li>
-           <li>Xem phim</li>
-           <li>Chơi thể thao</li>
-       </ul>
-       <p><b>Kỹ năng và mục tiêu</b></p>
-       <ol> 
-           <li>Biết HTML cơ bản</li>
-           <li>Đang học CSS và JavsScript</li>
-           <li>Muốn làm website cá nhân</li>
-       </ol>
-       <p><b>Liên hệ</b></p>
-       <p>Facebook:<a href="https://www.facebook.com/duong.at.814917?mibextid=ZbWKwL">Trang facebook của tôi</a></p>
-       <p>Email:<a href="mailto:ddat09843@gmail.com">ddat0943@gmail.com</a></p>
-</html> 
+
+
+
+
+
+    </body>
+</html>
