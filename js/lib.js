@@ -12,7 +12,7 @@ const products =[
     name: "Hoa cúc Indo",
     price: 2500000,
     description: "Cúc Indo (còn gọi là Cúc Nữ Hoàng, tên khoa học: Verbena tenera) là loài cây thân thảo dạng bụi nhỏ. Cây có thân mảnh, cành thường bò ngang, phân nhiều nhánh và rủ xuống rất thích hợp trồng chậu treo.",
-    link: "chi-tiet-hon",
+    link: "trangchitiet.html",
     image: "../accets/images/cucindo.img",
     },
     {

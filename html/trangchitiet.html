@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang = "vi">
+	<head>
+		<title>Trang chi tiết</title>
+		<meta charset = "utf-8">
+         <style>
+        /* Định dạng cơ bản cho toàn trang */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Khung chứa chi tiết sản phẩm */
+        .product-container {
+            background-color: #ffffff;
+            max-width: 900px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* Định dạng hình ảnh bên trái */
+        .product-image {
+            flex: 1;
+            background-color: #eaeaea;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Định dạng thông tin bên phải */
+        .product-details {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Tên sản phẩm */
+        .product-title {
+            color: #d9534f;
+            font-size: 28px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        /* Giá tiền */
+        .product-price {
+            color: #d9534f;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        /* Đoạn văn mô tả */
+        .product-description h3 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .product-description p {
+            color: #666;
+            line-height: 1.6;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        /* Khu vực nút bấm */
+        .action-buttons {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+        }
+
+        /* Nút mua ngay */
+        .btn-buy {
+            background-color: #00c2ff;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn-buy:hover {
+            background-color: #0099cc;
+        }
+
+        /* Nút quay lại */
+        .btn-back {
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn-back:hover {
+            background-color: #5a6268;
+        }
+
+        /* Giao diện co giãn cho điện thoại */
+        @media (max-width: 768px) {
+            .product-container {
+                flex-direction: column;
+            }
+            .product-details {
+                padding: 20px;
+            }
+        }
+    </style>
+	</head>
+	<body>
+
+    <div class="product-container">
+        
+        <div class="product-image">
+            <img src="../accets/images/cucindo.img" alt="Hoa cúc Indo">
+        </div>
+
+      
+        <div class="product-details">
+            <h1 class="product-title">Hoa cúc Indo</h1>
+            <p class="product-price">2.500.000 đ</p>
+            
+            <div class="product-description">
+                <h3>Mô tả sản phẩm:</h3>
+                <p>Cúc Indo (còn gọi là Cúc Nữ Hoàng, tên khoa học: <em>Verbena tenera</em>) là loài cây thân thảo dạng bụi nhỏ.</p>
+                <p>Cây có thân mảnh, cành thường bò ngang, phân nhiều nhánh và rủ xuống rất thích hợp trồng chậu treo.</p>
+            </div>
+
+           
+            <div class="action-buttons">
+                <button class="btn-buy">Mua ngay</button>
+                <a href="bangsanpham.html" class="btn-back">Quay lại</a>
+
+            </div>
+        </div>
+        <div>
+            <h2>Sản phẩm liên quan</h2>
+            <div></div>
+        </div>
+    </div>
+
+	</body>
+</html>
